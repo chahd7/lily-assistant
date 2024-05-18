@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>L I L Y</title>
+    </head>
+    <body>
+        
+       <audio src="assets/sound.mp3" id="turn_on"></audio>
+
+
+        <div class="machine">
+            <div class="clock cont">
+                <img src="assets/clock.png" class="icon">
+                <p id="time"></p>
+            </div>
+
+            <div class="internet cont">
+                <img src="assets/wifi-logo.svg" class="icon">
+                <p id="internet"></p>
+            </div>
+
+            <div class="battery cont">
+                <img src="assets/battery.png" class="icon">
+                <p id="battery"></p>
+            </div>
+
+            <div class="temp">
+                <p id="location"></p>
+                <p id="country"></p>
+                <p id="weatherT"></p>
+                <p id="weatherD"></p>
+                <img src="" id="weatherIcon"/>
+                <p id="oTemp"></p>
+                <p id="feelLikeTemp"></p>
+                <p id="minT"></p>
+                <p id="maxT"></p>
+            </div>
+
+            <img src="assets/lily.gif" id = "lily">
+            <img src="assets/hello-kitty.gif" id ="heart">
+        </div>
+
+        <div id="start_lily_btn" title="start lily">
+            <img src="assets/saturn.gif" alt="start-lily">
+        </div>
+
+
+        <div class="lily_setup in_middle">
+            <label for="">Your Name</label>
+            <input type="text">
+            <br>
+            <label for="">Your Bio</label>
+            <input type="text">
+            <br>
+            <label for="">Your Location</label>
+            <input type="text">
+            <br>
+            <label for="">Instagram Profile</label>
+            <input type="text">
+            <br>
+            <label for="">Github Profile</label>
+            <input type="text">
+            <br>
+            <br>
+            <button id ="sub_btn">Submit</button>
+        </div>
+
+        <div class="messages"></div>
+        <div class="commands in_middle" style="display: none;"></div>
+
+        <!--playlist addition
+        <iframe class = "playlist" src="https://open.spotify.com/playlist/37i9dQZEVXbk71hhm34csS?si=c80cf44be7be4227" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>-->
+        
+
+        <button id="start" style="display: none;">vr start</button>
+        <button id="stop" style="display: none;">vr stop</button>
+        <button id="speak" style="display: none;">speak out</button>
+        
+        
+        <script src="/app.js"></script>
+
+    </body>
+</html>
